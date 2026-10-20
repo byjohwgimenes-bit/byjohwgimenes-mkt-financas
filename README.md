@@ -55,7 +55,7 @@ O aplicativo foi construído por conversa com o ChatGPT/Codex e publicado por me
 
 **O assistente do aplicativo não possui IA conectada.** Ele executa cálculos determinísticos e apresenta orientações predefinidas com base nos dados registrados. A evolução proposta é conectar um modelo de IA para interpretar mensagens em linguagem natural e elaborar sugestões explicáveis, sempre pedindo confirmação antes de salvar registros.
 
-Não foram realizadas interações com Copilot ou Lovable nesta implementação. O [prompt final](docs/PROMPT_FINAL.md) está preparado para esses testes. A entrega completa descrita pelo desafio ainda exige capturas dessas interações e uma reflexão pessoal do estudante.
+O conceito foi revisado no Microsoft Copilot em 20/10/2026. As 19 capturas reais estão no [índice de evidências](docs/prints/README.md). O Lovable não foi utilizado. O desenvolvimento do protótipo ocorreu com ChatGPT/Codex.
 
 ## Limitações
 
@@ -87,7 +87,7 @@ Marca: ByJohwGimenes MKT. Projeto criado com assistência de IA para fins de est
 
 ## Prompt final (PRD)
 
-O briefing consolidado abaixo foi elaborado a partir das iterações com ChatGPT/Codex. Ele está pronto para validação no Copilot e Lovable; ainda não foi executado nessas ferramentas.
+O briefing abaixo registra a etapa inicial com ChatGPT/Codex. Um prompt ampliado, preparado nesta conversa para revisão do conceito no Copilot, pediu PRD, agente, fluxo de telas e MVP; a execução é documentada nas capturas em [docs/prints](docs/prints/README.md).
 
 
 Crie um aplicativo web responsivo, em português do Brasil, chamado **ByJohwGimenes MKT**, para organização financeira de profissionais autônomos de marketing e social media.
@@ -119,11 +119,25 @@ O desenvolvimento mostrou que a qualidade do briefing altera diretamente o resul
 
 A experiência também evidencia a diferença entre desenvolver com IA e integrar IA ao produto: a conversa ajudou a construir o código e refinar a interface, mas o assistente atual executa cálculos locais. Nomear essa limitação e revisar o que foi gerado faz parte do processo.
 
-Esta síntese foi redigida com assistência de IA a partir das interações registradas. A reflexão pessoal do estudante e suas observações sobre Copilot/Lovable devem ser complementadas após os testes.
+Esta síntese foi redigida com assistência de IA a partir das interações registradas. A análise do teste no Copilot está registrada abaixo. O estudante pode complementar este relato com suas próprias percepções.
 
 ## Evidências das interações
 
-**Pendente:** incluir imagens ou vídeos reais das interações com Copilot e Lovable. As capturas de configuração do GitHub não substituem essas evidências. Consulte [o checklist](docs/ENTREGA.md).
+Foram incluídas **19 capturas reais do Microsoft Copilot**, fornecidas pelo estudante em 20/10/2026, cobrindo o pedido de revisão do briefing, a proposta de produto, as funções do agente, o fluxo de telas e o MVP. Não são evidências de uso do Lovable nem de testes do código.
+
+![Pedido ao Copilot e início da revisão do PRD](docs/prints/copilot-01.png)
+
+![Personalidade proposta para o agente](docs/prints/copilot-08.png)
+
+![Proposta de MVP no Copilot](docs/prints/copilot-17.png)
+
+[Ver as 19 capturas com descrições](docs/prints/README.md)
+
+### O que a revisão do Copilot ensinou
+
+A resposta ajudou a detalhar o público, separar honorários de verba de mídia e visualizar módulos do produto. Também expandiu o escopo para impostos, investimentos e previsões. Essas propostas exigem revisão: percentuais ilustrativos não são regras tributárias; saldo não equivale a lucro contábil; e a queda de faturamento não determina, sozinha, a variação da margem. O aprendizado é usar a resposta como material de planejamento e revisar premissas, cálculos e limites antes de implementar.
+
+No protótipo, o assistente continua sendo uma simulação local. As telas e funções descritas pelo Copilot são propostas conceituais.
 
 ## Repositório-base do desafio
 

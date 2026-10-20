@@ -1,6 +1,6 @@
 # Evolução do projeto com Vibe Coding
 
-Registro resumido da conversa de desenvolvimento, sem representar um histórico de Copilot ou Lovable.
+Registro da conversa de desenvolvimento com ChatGPT/Codex e da revisão conceitual posterior no Microsoft Copilot. Não houve uso do Lovable.
 
 | Etapa | Orientação do usuário | Resultado |
 | --- | --- | --- |
@@ -25,4 +25,8 @@ A correção “mas de finanças” foi decisiva para manter o objetivo original
 
 ## Próximas iterações
 
-Testar o prompt no Copilot e no Lovable; documentar as respostas reais; verificar o fluxo em celular; adicionar exportação de dados; separar orçamento pessoal e profissional; e conectar IA com confirmação de lançamentos.
+Revisar as sugestões já recebidas no Copilot e, opcionalmente, explorar o Lovable; verificar o fluxo em celular; adicionar exportação de dados; separar orçamento pessoal e profissional; e conectar IA com confirmação de lançamentos.
+
+## Revisão real no Copilot — 20/10/2026
+
+O estudante executou o briefing ampliado no Microsoft Copilot e forneceu 19 capturas da resposta. A revisão abordou PRD, público, custos, repasses, agente, telas e MVP. As evidências estão em [prints/README.md](prints/README.md). As sugestões foram documentadas como propostas, sem alterar o escopo do código. A leitura crítica mostrou a necessidade de revisar percentuais ilustrativos, termos contábeis e previsões sem premissas explícitas.

@@ -23,3 +23,7 @@ Este arquivo é um roteiro. Deve ser preenchido pelo estudante com sua experiên
 Escreva sua reflexão abaixo, após testar as ferramentas e o aplicativo:
 
 [Preencher com a reflexão pessoal.]
+
+## Registro da revisão no Copilot
+
+As capturas recebidas mostram que o Copilot detalhou o público, o tratamento da verba de anúncios, o comportamento do agente e o fluxo de telas. A resposta também ampliou o escopo e apresentou números ilustrativos sem todas as premissas. Isso demonstra a importância de revisar saídas da IA antes de usá-las no produto. Esta análise foi redigida com assistência de IA; o roteiro acima permanece disponível para a contribuição pessoal do estudante.

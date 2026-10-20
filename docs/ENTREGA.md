@@ -11,9 +11,9 @@
 
 ## Completar antes de enviar
 
-- [ ] Executar e refinar o prompt no Copilot.
-- [ ] Testar o prompt no Lovable e examinar o resultado.
-- [ ] Salvar capturas reais das interações e das telas em `docs/prints/`.
+- [x] Executar o briefing de revisão no Microsoft Copilot e registrar a resposta.
+- [ ] Lovable não utilizado; o README oficial da DIO permite realizar a exploração com Copilot.
+- [x] Salvar 19 capturas reais da interação no Copilot em `docs/prints/`, com índice e leitura crítica.
 - [ ] Escrever a reflexão pessoal em `REFLEXAO.md`.
 - [ ] Conferir se o repositório pode ser acessado por quem fará a avaliação.
 - [ ] Enviar o link do repositório no campo indicado pela DIO.

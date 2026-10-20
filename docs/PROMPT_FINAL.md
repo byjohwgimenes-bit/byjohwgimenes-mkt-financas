@@ -1,6 +1,6 @@
 # Prompt final — pronto para testar no Copilot ou Lovable
 
-Este briefing descreve a versão demonstrativa e a evolução com IA. Preparar este arquivo não significa que o prompt já foi executado nessas ferramentas.
+Este arquivo preserva o briefing inicial da versão demonstrativa e sua evolução com IA. Posteriormente, um briefing ampliado preparado no ChatGPT/Codex foi executado no Microsoft Copilot para revisar o conceito, agente, telas e MVP. As capturas reais dessa etapa estão em [prints/README.md](prints/README.md). Não houve uso do Lovable.
 
 ---
 
