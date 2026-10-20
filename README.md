@@ -84,3 +84,47 @@ Não foram realizadas interações com Copilot ou Lovable nesta implementação.
 ## Autoria e uso
 
 Marca: ByJohwGimenes MKT. Projeto criado com assistência de IA para fins de estudo. As logos são elementos de identidade da marca; este repositório não concede autorização de reutilização dessas marcas. Nenhuma licença aberta foi definida.
+
+## Prompt final (PRD)
+
+O briefing consolidado abaixo foi elaborado a partir das iterações com ChatGPT/Codex. Ele está pronto para validação no Copilot e Lovable; ainda não foi executado nessas ferramentas.
+
+
+Crie um aplicativo web responsivo, em português do Brasil, chamado **ByJohwGimenes MKT**, para organização financeira de profissionais autônomos de marketing e social media.
+
+O problema é o controle manual de pagamentos dos clientes e despesas com ferramentas, edição, freelancers e anúncios. O aplicativo deve facilitar a leitura do saldo e a criação de reservas para meses de demanda menor.
+
+Use a identidade visual fornecida: logo completa branca em fundos escuros e símbolo preto em fundos claros. Preserve proporção e legibilidade. Crie uma interface simples, com painel, navegação lateral no desktop e adaptação para celular.
+
+Implemente um MVP com:
+
+1. Painel com filtro de mês, receitas, despesas, saldo, metas em andamento e despesas por categoria.
+2. Cadastro, edição e exclusão de receitas e despesas confirmadas, com descrição, valor em reais, data, cliente/fornecedor e categoria.
+3. Categorias: honorários, projetos avulsos, ferramentas e assinaturas, anúncios próprios, repasse de mídia, freelancers, equipamentos e outros.
+4. Metas com nome, valor desejado, total reservado e barra de progresso. Atualizar uma meta não movimenta dinheiro nem altera o saldo automaticamente.
+5. Plano de economia com valor e prazo em meses. Calcule valor/prazo e compare com o saldo do mês selecionado, explicando as limitações dos dados.
+6. Persistência local e dados fictícios claramente identificados.
+
+Valide valores positivos, meses inteiros entre 1 e 120, campos obrigatórios e confirme exclusões. Inclua estados vazios, contraste adequado e rótulos acessíveis.
+
+**Evolução com IA:** adicione um chat somente se houver integração real com um modelo. Ele deve interpretar mensagens de recebimentos e despesas, pedir dados ausentes e apresentar um resumo para confirmação antes de salvar. Explique quais registros embasam as sugestões. Não invente dados, rendimentos ou resultados. Não realize transferências.
+
+Caso não exista integração, identifique o assistente como simulação e implemente apenas cálculos locais, sem alegar que o aplicativo possui IA conectada. Nunca inclua chaves de API no código do navegador.
+
+Ao finalizar, apresente o fluxo principal, o que funciona, o que está simulado, como executar e os próximos passos do MVP. Teste uma meta de R$ 3.000 em seis meses e uma despesa que atualize o saldo do mês.
+
+## Reflexão sobre o processo
+
+O desenvolvimento mostrou que a qualidade do briefing altera diretamente o resultado. Ao pedir uma relação com marketing, a primeira interpretação desviou para um organizador de conteúdos. A correção “mas de finanças” restabeleceu o objetivo e levou a uma solução voltada aos recebimentos e custos do profissional de marketing.
+
+A experiência também evidencia a diferença entre desenvolver com IA e integrar IA ao produto: a conversa ajudou a construir o código e refinar a interface, mas o assistente atual executa cálculos locais. Nomear essa limitação e revisar o que foi gerado faz parte do processo.
+
+Esta síntese foi redigida com assistência de IA a partir das interações registradas. A reflexão pessoal do estudante e suas observações sobre Copilot/Lovable devem ser complementadas após os testes.
+
+## Evidências das interações
+
+**Pendente:** incluir imagens ou vídeos reais das interações com Copilot e Lovable. As capturas de configuração do GitHub não substituem essas evidências. Consulte [o checklist](docs/ENTREGA.md).
+
+## Repositório-base do desafio
+
+[Laboratório oficial da DIO](https://github.com/digitalinnovationone/dio-lab-vibe-coding-app-financas). As instruções de entrega solicitam um fork desse repositório. Este repositório do aplicativo foi criado de forma independente; a entrega deve ser organizada no fork para cumprir essa etapa.
